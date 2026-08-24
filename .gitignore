@@ -1,0 +1,36 @@
+# Environments & Virtual Environments
+.env
+.env.local
+.env.*.local
+backend/venv/
+venv/
+env/
+
+# Node Modules & Build Artifacts
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+build/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# SQLite & Local DB
+*.db
+*.sqlite
+*.sqlite3
+backend/*.db
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Agent/Brain Scratch Artifacts
+.gemini/
+scratch/
